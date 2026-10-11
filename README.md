@@ -2,6 +2,8 @@
 
 A minimal Discord theme: black, grey and rounded, with the clutter removed. It is a single CSS file for BetterDiscord, Vesktop, Vencord and any version of discord you may choose.
 
+![freedom in a server: channels, chat n member list, nothing else](screenshots/server.png)
+
 ## What it changes
 
 **Removed**
@@ -16,7 +18,7 @@ A minimal Discord theme: black, grey and rounded, with the clutter removed. It i
 - Rarely used items in right-click menus: Create Thread, Bookmark, Create Reminder, Apps, Speak Message, Start a Call, Add Note and Ignore.
 - Server templates in the Create a Server dialog (Create My Own stays).
 - The top bar on Linux (see [Platform behaviour](#platform-behaviour)).
-- 
+
 **Look**
 
 - Black background, grey surfaces, white highlights. Discord's blurple becomes grey.
@@ -26,6 +28,23 @@ A minimal Discord theme: black, grey and rounded, with the clutter removed. It i
 - Every profile is plain black: no profile theme colours, banners, badges, avatar decorations or profile effects.
 - One font for every display name: no custom name fonts, gradients or glows.
 - The user panel (bottom left) shows your avatar and a large name, without the status line.
+
+## Screenshots
+
+**dms n home**
+no nitro, no shop, no quests n no active now column, just your friends n your chats
+
+![direct messages with freedom](screenshots/dms.png)
+
+**right-click menu**
+only the stuff you actually click, thread, bookmark, reminder, apps n speak message are gone
+
+<img src="screenshots/message-menu.png" alt="message right-click menu with freedom" width="300">
+
+**create a server**
+no template list, its just Create My Own or join a server you already have an invite for
+
+<img src="screenshots/create-server.png" alt="create a server dialog with freedom" width="500">
 
 ## Install
 
