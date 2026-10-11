@@ -1,18 +1,8 @@
 # freedom
 
-A minimal Discord theme: black, grey and rounded, with the clutter removed. It is a single CSS file for Vencord, Vesktop, Equicord, BetterDiscord, or Discord in a browser.
+A minimal Discord theme: black, grey and rounded, with the clutter removed. It is a single CSS file for BetterDiscord, Vesktop, Vencord and any version of discord you may choose.
 
 ## What it changes
-
-**Look**
-
-- Black background, grey surfaces, white highlights. Discord's blurple becomes grey.
-- Rounded menus, popouts, dialogs and message box; round server icons and folders.
-- No shadows or glows; thin scrollbars; hover states fade in.
-- The selected channel or DM is marked with a white bar instead of a filled background.
-- Every profile is plain black: no profile theme colours, banners, badges, avatar decorations or profile effects.
-- One font for every display name: no custom name fonts, gradients or glows.
-- The user panel (bottom left) shows your avatar and a large name, without the status line.
 
 **Removed**
 
@@ -26,6 +16,16 @@ A minimal Discord theme: black, grey and rounded, with the clutter removed. It i
 - Rarely used items in right-click menus: Create Thread, Bookmark, Create Reminder, Apps, Speak Message, Start a Call, Add Note and Ignore.
 - Server templates in the Create a Server dialog (Create My Own stays).
 - The top bar on Linux (see [Platform behaviour](#platform-behaviour)).
+- 
+**Look**
+
+- Black background, grey surfaces, white highlights. Discord's blurple becomes grey.
+- Rounded menus, popouts, dialogs and message box; round server icons and folders.
+- No shadows or glows; thin scrollbars; hover states fade in.
+- The selected channel or DM is marked with a white bar instead of a filled background.
+- Every profile is plain black: no profile theme colours, banners, badges, avatar decorations or profile effects.
+- One font for every display name: no custom name fonts, gradients or glows.
+- The user panel (bottom left) shows your avatar and a large name, without the status line.
 
 ## Install
 
@@ -54,12 +54,6 @@ Pick one of the two methods.
 1. Download [`freedom.theme.css`](freedom.theme.css).
 2. Open **Settings → BetterDiscord → Themes** and select **Open Themes Folder**.
 3. Move the file into that folder and turn on **freedom**.
-
-### Discord in a browser
-
-1. Install the [Stylus extension](https://add0n.com/stylus.html).
-2. Open Stylus, create a new style, and paste the contents of `freedom.theme.css`.
-3. Set the style to apply to URLs on the domain `discord.com` and save.
 
 ## Settings
 
