@@ -39,7 +39,7 @@ Pick one of the two methods.
 2. Add this URL:
 
    ```text
-   https://raw.githubusercontent.com/SPANDANS04/freedom/main/freedom.theme.css
+   https://raw.githubusercontent.com/SPANDANS04/freedom-theme/main/freedom.theme.css
    ```
 
 **Local file**
@@ -112,7 +112,7 @@ Discord changes its class names with most updates, so some rules stop matching f
 
 1. Open developer tools with `Ctrl+Shift+I` (`Cmd+Option+I` on macOS). In Vesktop and some clients you must enable developer tools in settings first.
 2. Right-click the element and select **Inspect**.
-3. [Open an issue](https://github.com/SPANDANS04/freedom/issues) with a screenshot of the element and of the highlighted line in developer tools.
+3. [Open an issue](https://github.com/SPANDANS04/freedom-theme/issues) with a screenshot of the element and of the highlighted line in developer tools.
 
 ## Licence
 
