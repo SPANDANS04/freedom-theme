@@ -1,5 +1,9 @@
 # freedom
 
+[![licence](https://img.shields.io/github/license/SPANDANS04/freedom-theme?color=000000&labelColor=181818)](LICENSE)
+[![release](https://img.shields.io/github/v/release/SPANDANS04/freedom-theme?color=000000&labelColor=181818)](https://github.com/SPANDANS04/freedom-theme/releases)
+![clients](https://img.shields.io/badge/works%20with-Vencord%20%7C%20Vesktop%20%7C%20Equicord%20%7C%20BetterDiscord-000000?labelColor=181818)
+
 A minimal Discord theme: black, grey and rounded, with the clutter removed. It is a single CSS file for BetterDiscord, Vesktop, Vencord and any version of discord you may choose.
 
 ![freedom in a server: channels, chat n member list, nothing else](screenshots/server.png)
@@ -45,6 +49,12 @@ only the stuff you actually click, thread, bookmark, reminder, apps n speak mess
 no template list, its just Create My Own or join a server you already have an invite for
 
 <img src="screenshots/create-server.png" alt="create a server dialog with freedom" width="500">
+
+**also in there, screenshots coming later**
+
+- profiles: every profile is plain black, no banners, badges, decorations or profile effects
+- server list: round server icons n folders that open as a pill instead of squircles
+- role colours: real server colours by default, or one colour for every role if you want (see [role colours](#role-colours))
 
 ## Install
 
@@ -119,13 +129,19 @@ Custom role colours use CSS style queries. Browsers without style query support 
 - **Top bar.** On Linux, freedom hides Discord's top bar (back and forward buttons, title, inbox) and leaves a 16 px gap, because the window manager draws the window frame. On Windows and macOS the bar stays, so the minimise, maximise and close buttons remain. The bar also stays on any system where it contains window buttons.
 - **Fonts.** Text uses Noto Sans and code uses JetBrains Mono when they are installed. Otherwise freedom falls back to Discord's own fonts.
 
+## Known issues
+
+- **English only for some rules.** Server Boosts in the channel list is matched by its English label, so it stays visible when Discord is set to another language.
+- **Windows and macOS are untested.** The rules are written to keep the top bar and window buttons there, but nobody has confirmed it on those systems yet. Reports are welcome.
+- **Discord updates.** Discord renames internal class names often, so an update can bring back something freedom hides. See below for how to report it.
+
 ## When something looks wrong
 
 Discord changes its class names with most updates, so some rules stop matching from time to time. To report a broken element:
 
 1. Open developer tools with `Ctrl+Shift+I` (`Cmd+Option+I` on macOS). In Vesktop and some clients you must enable developer tools in settings first.
 2. Right-click the element and select **Inspect**.
-3. [Open an issue](https://github.com/SPANDANS04/freedom-theme/issues) with a screenshot of the element and of the highlighted line in developer tools.
+3. [Open an issue](https://github.com/SPANDANS04/freedom-theme/issues/new/choose) using the **Something looks wrong** template, with a screenshot of the element and of the highlighted line in developer tools.
 
 ## Licence
 
