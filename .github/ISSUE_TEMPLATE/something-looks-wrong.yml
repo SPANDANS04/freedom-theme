@@ -1,0 +1,51 @@
+name: Something looks wrong
+description: Something freedom should hide or restyle is back, broken or misplaced.
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What looks wrong
+      description: What you see, and what you expected instead.
+    validations:
+      required: true
+  - type: textarea
+    id: screenshot
+    attributes:
+      label: Screenshot
+      description: Drag in a screenshot of the element.
+    validations:
+      required: true
+  - type: textarea
+    id: inspect
+    attributes:
+      label: Inspect screenshot
+      description: Open developer tools (Ctrl+Shift+I, or Cmd+Option+I on macOS), right-click the element, select Inspect, and drag in a screenshot of the highlighted line and the lines around it.
+  - type: dropdown
+    id: client
+    attributes:
+      label: Client
+      options:
+        - Vencord
+        - Vesktop
+        - Equicord / Equibop
+        - BetterDiscord
+        - Browser (Stylus)
+        - Other
+    validations:
+      required: true
+  - type: dropdown
+    id: os
+    attributes:
+      label: Operating system
+      options:
+        - Windows
+        - macOS
+        - Linux
+    validations:
+      required: true
+  - type: input
+    id: language
+    attributes:
+      label: Discord language
+      placeholder: English
