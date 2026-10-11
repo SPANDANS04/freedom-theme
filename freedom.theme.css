@@ -339,7 +339,11 @@ li[class*="channel_"] [class*="interactiveSelected_"] [class*="name_"] {
 	color: var(--freedom-accent) !important;
 }
 
-/* No upsells: boost goal bars, Get Nitro banners and Nitro badges. */
+/* No upsells: boost goal bars, the Server Boosts entry at the top of the
+   channel list, Get Nitro banners and Nitro badges. */
+li:has(> * [data-list-item-id*="boost" i]),
+li:has([data-list-item-id*="boost" i]):not(:has(li)),
+[data-list-item-id*="boost" i],
 [class*="upsell" i],
 [class*="premiumPromo" i],
 [class*="guildBoostBar" i],
