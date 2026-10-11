@@ -31,17 +31,17 @@ A minimal Discord theme: black, grey and rounded, with the clutter removed. It i
 
 ## Screenshots
 
-**dms n home**
+**dms n home**\
 no nitro, no shop, no quests n no active now column, just your friends n your chats
 
 ![direct messages with freedom](screenshots/dms.png)
 
-**right-click menu**
+**right-click menu**\
 only the stuff you actually click, thread, bookmark, reminder, apps n speak message are gone
 
 <img src="screenshots/message-menu.png" alt="message right-click menu with freedom" width="300">
 
-**create a server**
+**create a server**\
 no template list, its just Create My Own or join a server you already have an invite for
 
 <img src="screenshots/create-server.png" alt="create a server dialog with freedom" width="500">
